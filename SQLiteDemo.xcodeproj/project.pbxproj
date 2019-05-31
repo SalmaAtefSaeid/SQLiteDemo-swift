@@ -12,6 +12,9 @@
 		3A65BAD122A07612003D958D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A65BACF22A07612003D958D /* Main.storyboard */; };
 		3A65BAD322A07622003D958D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A65BAD222A07622003D958D /* Assets.xcassets */; };
 		3A65BAD622A07622003D958D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A65BAD422A07622003D958D /* LaunchScreen.storyboard */; };
+		3A65BADE22A07A8F003D958D /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65BADD22A07A8F003D958D /* FriendTableViewCell.swift */; };
+		3A65BAE022A07D4E003D958D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65BADF22A07D4E003D958D /* Friend.swift */; };
+		3A65BAE222A07F2A003D958D /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A65BAE122A07F2A003D958D /* FriendManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3A65BAD222A07622003D958D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A65BAD522A07622003D958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A65BAD722A07622003D958D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A65BADD22A07A8F003D958D /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		3A65BADF22A07D4E003D958D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		3A65BAE122A07F2A003D958D /* FriendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				3A65BAD222A07622003D958D /* Assets.xcassets */,
 				3A65BAD422A07622003D958D /* LaunchScreen.storyboard */,
 				3A65BAD722A07622003D958D /* Info.plist */,
+				3A65BADD22A07A8F003D958D /* FriendTableViewCell.swift */,
+				3A65BADF22A07D4E003D958D /* Friend.swift */,
+				3A65BAE122A07F2A003D958D /* FriendManager.swift */,
 			);
 			path = SQLiteDemo;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A65BAE222A07F2A003D958D /* FriendManager.swift in Sources */,
+				3A65BADE22A07A8F003D958D /* FriendTableViewCell.swift in Sources */,
 				3A65BACE22A07612003D958D /* ViewController.swift in Sources */,
 				3A65BACC22A07612003D958D /* AppDelegate.swift in Sources */,
+				3A65BAE022A07D4E003D958D /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
